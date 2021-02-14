@@ -61,3 +61,7 @@ typings/
 .next
 
 db.json
+
+cypress-coverage
+
+cypress/videos

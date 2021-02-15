@@ -1,4 +1,6 @@
-# Testing Demo App
+# Testing Demo App - This project is clone of https://github.com/bahmutov/testing-react.git
+
+Goal is to publish jest + cypress combined code coverage in sonar
 
 This project was bootstrapped with [Create React App v3](https://github.com/facebookincubator/create-react-app).
 

@@ -65,3 +65,7 @@ db.json
 cypress-coverage
 
 cypress/videos
+
+reports
+
+jest-coverage

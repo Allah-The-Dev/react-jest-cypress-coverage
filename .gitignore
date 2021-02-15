@@ -62,6 +62,7 @@ typings/
 
 db.json
 
+# code coverage
 cypress-coverage
 
 cypress/videos
@@ -69,3 +70,6 @@ cypress/videos
 reports
 
 jest-coverage
+
+# sonar 
+.scannerwork

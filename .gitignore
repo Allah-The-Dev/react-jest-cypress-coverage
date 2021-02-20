@@ -73,3 +73,7 @@ jest-coverage
 
 # sonar 
 .scannerwork
+
+node_modules_bkp
+
+cypress/screenshots

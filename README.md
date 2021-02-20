@@ -67,3 +67,17 @@ Your application's source code should be instrumented when you run `npm start`. 
 For more details about code coverage, see
 - [Cypress code coverage guide](https://on.cypress.io/code-coverage)
 - [Complete code coverage with Cypress](https://www.cypress.io/blog/2019/08/08/webcast-recording-complete-code-coverage-with-cypress/) webinar
+
+## Docker commands
+
+### Using cypress/included:6.2.1 docker image
+
+#### command to check cypress and browser info
+```
+docker run -it -v <absolutePath>/testing-react:/e2e -w /e2e --entrypoint=cypress cypress/included:6.2.1 info
+```
+
+#### command to execute cypress e2e with chrome browser
+```
+docker run -it -v C:/Users/nkumarpa/workspace/testing-react:/e2e -w /e2e cypress/included:6.2.1 --browser chrome
+```
